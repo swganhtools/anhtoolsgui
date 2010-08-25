@@ -60,6 +60,13 @@ namespace ANHGui.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap grey {
+            get {
+                object obj = ResourceManager.GetObject("grey", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Image8 {
             get {
                 object obj = ResourceManager.GetObject("Image8", resourceCulture);

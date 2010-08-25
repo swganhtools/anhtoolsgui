@@ -51,7 +51,7 @@
             // 
             // picLogo
             // 
-            this.picLogo.BackgroundImage = global::ANHGui.Properties.Resources.newlight;
+            this.picLogo.BackgroundImage = global::ANHGui.Properties.Resources.grey;
             this.picLogo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.picLogo.Image = global::ANHGui.Properties.Resources.Image8;
             this.picLogo.Location = new System.Drawing.Point(0, 436);
@@ -64,7 +64,7 @@
             // menMain
             // 
             this.menMain.BackColor = System.Drawing.Color.Transparent;
-            this.menMain.BackgroundImage = global::ANHGui.Properties.Resources.newlight;
+            this.menMain.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.menMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.serversToolStripMenuItem,
@@ -82,13 +82,13 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // serversToolStripMenuItem
@@ -96,13 +96,13 @@
             this.serversToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.configurationToolStripMenuItem});
             this.serversToolStripMenuItem.Name = "serversToolStripMenuItem";
-            this.serversToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.serversToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.serversToolStripMenuItem.Text = "Preferences";
             // 
             // configurationToolStripMenuItem
             // 
             this.configurationToolStripMenuItem.Name = "configurationToolStripMenuItem";
-            this.configurationToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.configurationToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.configurationToolStripMenuItem.Text = "Database Configuration";
             this.configurationToolStripMenuItem.Click += new System.EventHandler(this.configurationToolStripMenuItem_Click);
             // 
@@ -112,19 +112,19 @@
             this.utilityServersToolStripMenuItem,
             this.zoneServersToolStripMenuItem});
             this.serversToolStripMenuItem1.Name = "serversToolStripMenuItem1";
-            this.serversToolStripMenuItem1.Size = new System.Drawing.Size(134, 20);
+            this.serversToolStripMenuItem1.Size = new System.Drawing.Size(141, 20);
             this.serversToolStripMenuItem1.Text = "Load / Unload Servers";
             // 
             // utilityServersToolStripMenuItem
             // 
             this.utilityServersToolStripMenuItem.Name = "utilityServersToolStripMenuItem";
-            this.utilityServersToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.utilityServersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.utilityServersToolStripMenuItem.Text = "Utility Servers";
             // 
             // zoneServersToolStripMenuItem
             // 
             this.zoneServersToolStripMenuItem.Name = "zoneServersToolStripMenuItem";
-            this.zoneServersToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.zoneServersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.zoneServersToolStripMenuItem.Text = "Zone Servers";
             // 
             // sWGANHConfigurationToolStripMenuItem
@@ -135,31 +135,31 @@
             this.globalConfigToolStripMenuItem,
             this.gameplayConfigToolStripMenuItem});
             this.sWGANHConfigurationToolStripMenuItem.Name = "sWGANHConfigurationToolStripMenuItem";
-            this.sWGANHConfigurationToolStripMenuItem.Size = new System.Drawing.Size(150, 20);
+            this.sWGANHConfigurationToolStripMenuItem.Size = new System.Drawing.Size(155, 20);
             this.sWGANHConfigurationToolStripMenuItem.Text = "SWG:ANH Configuration";
             // 
             // galaxyConfigToolStripMenuItem
             // 
             this.galaxyConfigToolStripMenuItem.Name = "galaxyConfigToolStripMenuItem";
-            this.galaxyConfigToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.galaxyConfigToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.galaxyConfigToolStripMenuItem.Text = "Galaxy Config";
             // 
             // zoneConfigToolStripMenuItem
             // 
             this.zoneConfigToolStripMenuItem.Name = "zoneConfigToolStripMenuItem";
-            this.zoneConfigToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.zoneConfigToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.zoneConfigToolStripMenuItem.Text = "Zone Config";
             // 
             // globalConfigToolStripMenuItem
             // 
             this.globalConfigToolStripMenuItem.Name = "globalConfigToolStripMenuItem";
-            this.globalConfigToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.globalConfigToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.globalConfigToolStripMenuItem.Text = "Global Config";
             // 
             // gameplayConfigToolStripMenuItem
             // 
             this.gameplayConfigToolStripMenuItem.Name = "gameplayConfigToolStripMenuItem";
-            this.gameplayConfigToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.gameplayConfigToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.gameplayConfigToolStripMenuItem.Text = "Gameplay Config";
             // 
             // sWGANHUserMgmtToolStripMenuItem
@@ -167,13 +167,13 @@
             this.sWGANHUserMgmtToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.accountManagerToolStripMenuItem});
             this.sWGANHUserMgmtToolStripMenuItem.Name = "sWGANHUserMgmtToolStripMenuItem";
-            this.sWGANHUserMgmtToolStripMenuItem.Size = new System.Drawing.Size(135, 20);
+            this.sWGANHUserMgmtToolStripMenuItem.Size = new System.Drawing.Size(142, 20);
             this.sWGANHUserMgmtToolStripMenuItem.Text = "SWG:ANH User Mgmt";
             // 
             // accountManagerToolStripMenuItem
             // 
             this.accountManagerToolStripMenuItem.Name = "accountManagerToolStripMenuItem";
-            this.accountManagerToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.accountManagerToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.accountManagerToolStripMenuItem.Text = "Account Manager";
             this.accountManagerToolStripMenuItem.Click += new System.EventHandler(this.accountManagerToolStripMenuItem_Click);
             // 
@@ -181,7 +181,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ANHGui.Properties.Resources.newgui;
+            this.BackColor = System.Drawing.Color.SlateGray;
+            this.BackgroundImage = global::ANHGui.Properties.Resources.grey;
             this.ClientSize = new System.Drawing.Size(1025, 492);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.menMain);
