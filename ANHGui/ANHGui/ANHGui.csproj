@@ -34,11 +34,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ANHAcctMgr">
-      <HintPath>..\..\ANHAcctMgr\ANHAcctMgr\bin\Debug\ANHAcctMgr.dll</HintPath>
+    <Reference Include="ANHAcctMgr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\anhtoolslibs\ANHAcctMgr\ANHAcctMgr\bin\Debug\ANHAcctMgr.dll</HintPath>
     </Reference>
-    <Reference Include="ANHDBI">
-      <HintPath>..\..\ANHDBI\ANHDBI\bin\Debug\ANHDBI.dll</HintPath>
+    <Reference Include="ANHDBI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\anhtoolslibs\ANHAcctMgr\ANHAcctMgr\bin\Debug\ANHDBI.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
@@ -55,8 +57,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Utilities">
-      <HintPath>..\..\ANHDBI\ANHDBI\bin\Debug\Utilities.dll</HintPath>
+    <Reference Include="Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\anhtoolslibs\ANHAcctMgr\ANHAcctMgr\bin\Debug\Utilities.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
