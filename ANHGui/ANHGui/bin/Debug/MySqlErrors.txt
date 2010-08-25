@@ -1,0 +1,2 @@
+8/20/2010 10:28:11 AM: Access denied for user 'swganh'@'localhost' (using password: YES)
+8/23/2010 10:29:05 AM: Unknown column 'username' in 'field list'
