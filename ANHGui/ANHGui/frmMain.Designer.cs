@@ -35,9 +35,8 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serversToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.serversToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.utilityServersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zoneServersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sWGANHConfigurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.galaxyConfigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zoneConfigToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -94,7 +93,8 @@
             // serversToolStripMenuItem
             // 
             this.serversToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.configurationToolStripMenuItem});
+            this.configurationToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.serversToolStripMenuItem.Name = "serversToolStripMenuItem";
             this.serversToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.serversToolStripMenuItem.Text = "Preferences";
@@ -106,26 +106,19 @@
             this.configurationToolStripMenuItem.Text = "Database Configuration";
             this.configurationToolStripMenuItem.Click += new System.EventHandler(this.configurationToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(204, 22);
+            this.toolStripMenuItem1.Text = "Remote Configuration";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
             // serversToolStripMenuItem1
             // 
-            this.serversToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.utilityServersToolStripMenuItem,
-            this.zoneServersToolStripMenuItem});
             this.serversToolStripMenuItem1.Name = "serversToolStripMenuItem1";
-            this.serversToolStripMenuItem1.Size = new System.Drawing.Size(141, 20);
-            this.serversToolStripMenuItem1.Text = "Load / Unload Servers";
-            // 
-            // utilityServersToolStripMenuItem
-            // 
-            this.utilityServersToolStripMenuItem.Name = "utilityServersToolStripMenuItem";
-            this.utilityServersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.utilityServersToolStripMenuItem.Text = "Utility Servers";
-            // 
-            // zoneServersToolStripMenuItem
-            // 
-            this.zoneServersToolStripMenuItem.Name = "zoneServersToolStripMenuItem";
-            this.zoneServersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.zoneServersToolStripMenuItem.Text = "Zone Servers";
+            this.serversToolStripMenuItem1.Size = new System.Drawing.Size(103, 20);
+            this.serversToolStripMenuItem1.Text = "Remote Admin";
+            this.serversToolStripMenuItem1.Click += new System.EventHandler(this.serversToolStripMenuItem1_Click);
             // 
             // sWGANHConfigurationToolStripMenuItem
             // 
@@ -210,8 +203,6 @@
         private System.Windows.Forms.ToolStripMenuItem serversToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configurationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem serversToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem utilityServersToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zoneServersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sWGANHConfigurationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem galaxyConfigToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zoneConfigToolStripMenuItem;
@@ -219,5 +210,6 @@
         private System.Windows.Forms.ToolStripMenuItem gameplayConfigToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sWGANHUserMgmtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem accountManagerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }

@@ -83,6 +83,18 @@
             this.txtArchiveUser = new System.Windows.Forms.TextBox();
             this.txtArchiveHost = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.txtMainPort = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txtConfigPort = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.txtAstromechPort = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.txtLogsPort = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.txtArchivePort = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.txtToolsPort = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -263,7 +275,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Location = new System.Drawing.Point(13, 245);
+            this.label11.Location = new System.Drawing.Point(13, 273);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(53, 13);
             this.label11.TabIndex = 26;
@@ -273,7 +285,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Location = new System.Drawing.Point(13, 219);
+            this.label12.Location = new System.Drawing.Point(13, 247);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(53, 13);
             this.label12.TabIndex = 25;
@@ -283,7 +295,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Location = new System.Drawing.Point(13, 193);
+            this.label13.Location = new System.Drawing.Point(13, 221);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(55, 13);
             this.label13.TabIndex = 24;
@@ -293,7 +305,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Location = new System.Drawing.Point(13, 165);
+            this.label14.Location = new System.Drawing.Point(13, 193);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(29, 13);
             this.label14.TabIndex = 23;
@@ -303,7 +315,7 @@
             // 
             this.txtAstroDB.BackColor = System.Drawing.Color.Teal;
             this.txtAstroDB.ForeColor = System.Drawing.Color.White;
-            this.txtAstroDB.Location = new System.Drawing.Point(70, 238);
+            this.txtAstroDB.Location = new System.Drawing.Point(70, 266);
             this.txtAstroDB.Name = "txtAstroDB";
             this.txtAstroDB.Size = new System.Drawing.Size(151, 20);
             this.txtAstroDB.TabIndex = 22;
@@ -312,7 +324,7 @@
             // 
             this.txtAstroPass.BackColor = System.Drawing.Color.Teal;
             this.txtAstroPass.ForeColor = System.Drawing.Color.White;
-            this.txtAstroPass.Location = new System.Drawing.Point(70, 212);
+            this.txtAstroPass.Location = new System.Drawing.Point(70, 240);
             this.txtAstroPass.Name = "txtAstroPass";
             this.txtAstroPass.Size = new System.Drawing.Size(151, 20);
             this.txtAstroPass.TabIndex = 21;
@@ -321,7 +333,7 @@
             // 
             this.txtAstroUser.BackColor = System.Drawing.Color.Teal;
             this.txtAstroUser.ForeColor = System.Drawing.Color.White;
-            this.txtAstroUser.Location = new System.Drawing.Point(70, 186);
+            this.txtAstroUser.Location = new System.Drawing.Point(70, 214);
             this.txtAstroUser.Name = "txtAstroUser";
             this.txtAstroUser.Size = new System.Drawing.Size(151, 20);
             this.txtAstroUser.TabIndex = 20;
@@ -330,7 +342,7 @@
             // 
             this.txtAstroHost.BackColor = System.Drawing.Color.Teal;
             this.txtAstroHost.ForeColor = System.Drawing.Color.White;
-            this.txtAstroHost.Location = new System.Drawing.Point(70, 159);
+            this.txtAstroHost.Location = new System.Drawing.Point(70, 187);
             this.txtAstroHost.Name = "txtAstroHost";
             this.txtAstroHost.Size = new System.Drawing.Size(151, 20);
             this.txtAstroHost.TabIndex = 19;
@@ -340,7 +352,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(13, 142);
+            this.label15.Location = new System.Drawing.Point(13, 170);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(194, 13);
             this.label15.TabIndex = 18;
@@ -350,7 +362,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Location = new System.Drawing.Point(261, 245);
+            this.label16.Location = new System.Drawing.Point(261, 273);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(53, 13);
             this.label16.TabIndex = 35;
@@ -360,7 +372,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Location = new System.Drawing.Point(261, 219);
+            this.label17.Location = new System.Drawing.Point(261, 247);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(53, 13);
             this.label17.TabIndex = 34;
@@ -370,7 +382,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Location = new System.Drawing.Point(261, 193);
+            this.label18.Location = new System.Drawing.Point(261, 221);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(55, 13);
             this.label18.TabIndex = 33;
@@ -380,7 +392,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Location = new System.Drawing.Point(261, 165);
+            this.label19.Location = new System.Drawing.Point(261, 193);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(29, 13);
             this.label19.TabIndex = 32;
@@ -390,7 +402,7 @@
             // 
             this.txtLogDB.BackColor = System.Drawing.Color.Teal;
             this.txtLogDB.ForeColor = System.Drawing.Color.White;
-            this.txtLogDB.Location = new System.Drawing.Point(318, 238);
+            this.txtLogDB.Location = new System.Drawing.Point(318, 266);
             this.txtLogDB.Name = "txtLogDB";
             this.txtLogDB.Size = new System.Drawing.Size(151, 20);
             this.txtLogDB.TabIndex = 31;
@@ -399,7 +411,7 @@
             // 
             this.txtLogPass.BackColor = System.Drawing.Color.Teal;
             this.txtLogPass.ForeColor = System.Drawing.Color.White;
-            this.txtLogPass.Location = new System.Drawing.Point(318, 212);
+            this.txtLogPass.Location = new System.Drawing.Point(318, 240);
             this.txtLogPass.Name = "txtLogPass";
             this.txtLogPass.Size = new System.Drawing.Size(151, 20);
             this.txtLogPass.TabIndex = 30;
@@ -408,7 +420,7 @@
             // 
             this.txtLogUser.BackColor = System.Drawing.Color.Teal;
             this.txtLogUser.ForeColor = System.Drawing.Color.White;
-            this.txtLogUser.Location = new System.Drawing.Point(318, 186);
+            this.txtLogUser.Location = new System.Drawing.Point(318, 214);
             this.txtLogUser.Name = "txtLogUser";
             this.txtLogUser.Size = new System.Drawing.Size(151, 20);
             this.txtLogUser.TabIndex = 29;
@@ -417,7 +429,7 @@
             // 
             this.txtLogHost.BackColor = System.Drawing.Color.Teal;
             this.txtLogHost.ForeColor = System.Drawing.Color.White;
-            this.txtLogHost.Location = new System.Drawing.Point(318, 159);
+            this.txtLogHost.Location = new System.Drawing.Point(318, 187);
             this.txtLogHost.Name = "txtLogHost";
             this.txtLogHost.Size = new System.Drawing.Size(151, 20);
             this.txtLogHost.TabIndex = 28;
@@ -427,7 +439,7 @@
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(261, 142);
+            this.label20.Location = new System.Drawing.Point(261, 170);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(162, 13);
             this.label20.TabIndex = 27;
@@ -437,7 +449,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Location = new System.Drawing.Point(261, 373);
+            this.label21.Location = new System.Drawing.Point(260, 424);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(53, 13);
             this.label21.TabIndex = 44;
@@ -447,7 +459,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Location = new System.Drawing.Point(261, 347);
+            this.label22.Location = new System.Drawing.Point(260, 398);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(53, 13);
             this.label22.TabIndex = 43;
@@ -457,7 +469,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Location = new System.Drawing.Point(261, 321);
+            this.label23.Location = new System.Drawing.Point(260, 372);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(55, 13);
             this.label23.TabIndex = 42;
@@ -467,7 +479,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Location = new System.Drawing.Point(261, 293);
+            this.label24.Location = new System.Drawing.Point(260, 344);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(29, 13);
             this.label24.TabIndex = 41;
@@ -477,7 +489,7 @@
             // 
             this.txtToolsDB.BackColor = System.Drawing.Color.Teal;
             this.txtToolsDB.ForeColor = System.Drawing.Color.White;
-            this.txtToolsDB.Location = new System.Drawing.Point(318, 366);
+            this.txtToolsDB.Location = new System.Drawing.Point(317, 417);
             this.txtToolsDB.Name = "txtToolsDB";
             this.txtToolsDB.Size = new System.Drawing.Size(151, 20);
             this.txtToolsDB.TabIndex = 40;
@@ -486,7 +498,7 @@
             // 
             this.txtToolsPass.BackColor = System.Drawing.Color.Teal;
             this.txtToolsPass.ForeColor = System.Drawing.Color.White;
-            this.txtToolsPass.Location = new System.Drawing.Point(318, 340);
+            this.txtToolsPass.Location = new System.Drawing.Point(317, 391);
             this.txtToolsPass.Name = "txtToolsPass";
             this.txtToolsPass.Size = new System.Drawing.Size(151, 20);
             this.txtToolsPass.TabIndex = 39;
@@ -495,7 +507,7 @@
             // 
             this.txtToolsUser.BackColor = System.Drawing.Color.Teal;
             this.txtToolsUser.ForeColor = System.Drawing.Color.White;
-            this.txtToolsUser.Location = new System.Drawing.Point(318, 314);
+            this.txtToolsUser.Location = new System.Drawing.Point(317, 365);
             this.txtToolsUser.Name = "txtToolsUser";
             this.txtToolsUser.Size = new System.Drawing.Size(151, 20);
             this.txtToolsUser.TabIndex = 38;
@@ -504,7 +516,7 @@
             // 
             this.txtToolsHost.BackColor = System.Drawing.Color.Teal;
             this.txtToolsHost.ForeColor = System.Drawing.Color.White;
-            this.txtToolsHost.Location = new System.Drawing.Point(318, 287);
+            this.txtToolsHost.Location = new System.Drawing.Point(317, 338);
             this.txtToolsHost.Name = "txtToolsHost";
             this.txtToolsHost.Size = new System.Drawing.Size(151, 20);
             this.txtToolsHost.TabIndex = 37;
@@ -514,7 +526,7 @@
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(261, 270);
+            this.label25.Location = new System.Drawing.Point(260, 321);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(166, 13);
             this.label25.TabIndex = 36;
@@ -523,7 +535,7 @@
             // btnSave
             // 
             this.btnSave.BackgroundImage = global::ANHGui.Properties.Resources.newlight;
-            this.btnSave.Location = new System.Drawing.Point(174, 397);
+            this.btnSave.Location = new System.Drawing.Point(145, 468);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(158, 23);
             this.btnSave.TabIndex = 45;
@@ -535,7 +547,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Location = new System.Drawing.Point(13, 373);
+            this.label26.Location = new System.Drawing.Point(12, 424);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(53, 13);
             this.label26.TabIndex = 54;
@@ -545,7 +557,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Location = new System.Drawing.Point(13, 347);
+            this.label27.Location = new System.Drawing.Point(12, 398);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(53, 13);
             this.label27.TabIndex = 53;
@@ -555,7 +567,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Location = new System.Drawing.Point(13, 321);
+            this.label28.Location = new System.Drawing.Point(12, 372);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(55, 13);
             this.label28.TabIndex = 52;
@@ -565,7 +577,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Location = new System.Drawing.Point(13, 293);
+            this.label29.Location = new System.Drawing.Point(12, 344);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(29, 13);
             this.label29.TabIndex = 51;
@@ -575,7 +587,7 @@
             // 
             this.txtArchiveDB.BackColor = System.Drawing.Color.Teal;
             this.txtArchiveDB.ForeColor = System.Drawing.Color.White;
-            this.txtArchiveDB.Location = new System.Drawing.Point(70, 366);
+            this.txtArchiveDB.Location = new System.Drawing.Point(69, 417);
             this.txtArchiveDB.Name = "txtArchiveDB";
             this.txtArchiveDB.Size = new System.Drawing.Size(151, 20);
             this.txtArchiveDB.TabIndex = 50;
@@ -584,7 +596,7 @@
             // 
             this.txtArchivePass.BackColor = System.Drawing.Color.Teal;
             this.txtArchivePass.ForeColor = System.Drawing.Color.White;
-            this.txtArchivePass.Location = new System.Drawing.Point(70, 340);
+            this.txtArchivePass.Location = new System.Drawing.Point(69, 391);
             this.txtArchivePass.Name = "txtArchivePass";
             this.txtArchivePass.Size = new System.Drawing.Size(151, 20);
             this.txtArchivePass.TabIndex = 49;
@@ -593,7 +605,7 @@
             // 
             this.txtArchiveUser.BackColor = System.Drawing.Color.Teal;
             this.txtArchiveUser.ForeColor = System.Drawing.Color.White;
-            this.txtArchiveUser.Location = new System.Drawing.Point(70, 314);
+            this.txtArchiveUser.Location = new System.Drawing.Point(69, 365);
             this.txtArchiveUser.Name = "txtArchiveUser";
             this.txtArchiveUser.Size = new System.Drawing.Size(151, 20);
             this.txtArchiveUser.TabIndex = 48;
@@ -602,7 +614,7 @@
             // 
             this.txtArchiveHost.BackColor = System.Drawing.Color.Teal;
             this.txtArchiveHost.ForeColor = System.Drawing.Color.White;
-            this.txtArchiveHost.Location = new System.Drawing.Point(70, 287);
+            this.txtArchiveHost.Location = new System.Drawing.Point(69, 338);
             this.txtArchiveHost.Name = "txtArchiveHost";
             this.txtArchiveHost.Size = new System.Drawing.Size(151, 20);
             this.txtArchiveHost.TabIndex = 47;
@@ -612,18 +624,144 @@
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(13, 270);
+            this.label30.Location = new System.Drawing.Point(12, 321);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(178, 13);
             this.label30.TabIndex = 46;
             this.label30.Text = "Archive ANH Database Config";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Location = new System.Drawing.Point(12, 142);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(26, 13);
+            this.label31.TabIndex = 56;
+            this.label31.Text = "Port";
+            // 
+            // txtMainPort
+            // 
+            this.txtMainPort.BackColor = System.Drawing.Color.Teal;
+            this.txtMainPort.ForeColor = System.Drawing.Color.White;
+            this.txtMainPort.Location = new System.Drawing.Point(69, 135);
+            this.txtMainPort.Name = "txtMainPort";
+            this.txtMainPort.Size = new System.Drawing.Size(151, 20);
+            this.txtMainPort.TabIndex = 55;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Location = new System.Drawing.Point(260, 142);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(26, 13);
+            this.label32.TabIndex = 58;
+            this.label32.Text = "Port";
+            // 
+            // txtConfigPort
+            // 
+            this.txtConfigPort.BackColor = System.Drawing.Color.Teal;
+            this.txtConfigPort.ForeColor = System.Drawing.Color.White;
+            this.txtConfigPort.Location = new System.Drawing.Point(317, 135);
+            this.txtConfigPort.Name = "txtConfigPort";
+            this.txtConfigPort.Size = new System.Drawing.Size(151, 20);
+            this.txtConfigPort.TabIndex = 57;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.Location = new System.Drawing.Point(13, 299);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(26, 13);
+            this.label33.TabIndex = 60;
+            this.label33.Text = "Port";
+            // 
+            // txtAstromechPort
+            // 
+            this.txtAstromechPort.BackColor = System.Drawing.Color.Teal;
+            this.txtAstromechPort.ForeColor = System.Drawing.Color.White;
+            this.txtAstromechPort.Location = new System.Drawing.Point(70, 292);
+            this.txtAstromechPort.Name = "txtAstromechPort";
+            this.txtAstromechPort.Size = new System.Drawing.Size(151, 20);
+            this.txtAstromechPort.TabIndex = 59;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.Location = new System.Drawing.Point(260, 299);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(26, 13);
+            this.label34.TabIndex = 62;
+            this.label34.Text = "Port";
+            // 
+            // txtLogsPort
+            // 
+            this.txtLogsPort.BackColor = System.Drawing.Color.Teal;
+            this.txtLogsPort.ForeColor = System.Drawing.Color.White;
+            this.txtLogsPort.Location = new System.Drawing.Point(317, 292);
+            this.txtLogsPort.Name = "txtLogsPort";
+            this.txtLogsPort.Size = new System.Drawing.Size(151, 20);
+            this.txtLogsPort.TabIndex = 61;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.Location = new System.Drawing.Point(13, 449);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(26, 13);
+            this.label35.TabIndex = 64;
+            this.label35.Text = "Port";
+            // 
+            // txtArchivePort
+            // 
+            this.txtArchivePort.BackColor = System.Drawing.Color.Teal;
+            this.txtArchivePort.ForeColor = System.Drawing.Color.White;
+            this.txtArchivePort.Location = new System.Drawing.Point(70, 442);
+            this.txtArchivePort.Name = "txtArchivePort";
+            this.txtArchivePort.Size = new System.Drawing.Size(151, 20);
+            this.txtArchivePort.TabIndex = 63;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Location = new System.Drawing.Point(261, 449);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(26, 13);
+            this.label36.TabIndex = 66;
+            this.label36.Text = "Port";
+            // 
+            // txtToolsPort
+            // 
+            this.txtToolsPort.BackColor = System.Drawing.Color.Teal;
+            this.txtToolsPort.ForeColor = System.Drawing.Color.White;
+            this.txtToolsPort.Location = new System.Drawing.Point(318, 442);
+            this.txtToolsPort.Name = "txtToolsPort";
+            this.txtToolsPort.Size = new System.Drawing.Size(151, 20);
+            this.txtToolsPort.TabIndex = 65;
             // 
             // frmDBConfig
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ANHGui.Properties.Resources.newgui;
-            this.ClientSize = new System.Drawing.Size(480, 439);
+            this.ClientSize = new System.Drawing.Size(480, 503);
+            this.Controls.Add(this.label36);
+            this.Controls.Add(this.txtToolsPort);
+            this.Controls.Add(this.label35);
+            this.Controls.Add(this.txtArchivePort);
+            this.Controls.Add(this.label34);
+            this.Controls.Add(this.txtLogsPort);
+            this.Controls.Add(this.label33);
+            this.Controls.Add(this.txtAstromechPort);
+            this.Controls.Add(this.label32);
+            this.Controls.Add(this.txtConfigPort);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.txtMainPort);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
@@ -745,5 +883,17 @@
         private System.Windows.Forms.TextBox txtArchiveUser;
         private System.Windows.Forms.TextBox txtArchiveHost;
         private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox txtMainPort;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox txtConfigPort;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox txtAstromechPort;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.TextBox txtLogsPort;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox txtArchivePort;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.TextBox txtToolsPort;
     }
 }

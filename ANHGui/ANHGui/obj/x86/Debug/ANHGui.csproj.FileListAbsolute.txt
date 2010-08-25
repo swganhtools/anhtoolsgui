@@ -33,3 +33,11 @@ C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHAcctMgr.dll
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHDBI.dll
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\Utilities.dll
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMonitor.dll
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.dll
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMonitor.pdb
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.pdb
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHTCClient.dll
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHTCClient.pdb
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.frmDBConfig.resources
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.frmRemoteConfig.resources

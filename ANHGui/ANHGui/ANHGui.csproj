@@ -42,6 +42,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\anhtoolslibs\ANHAcctMgr\ANHAcctMgr\bin\Debug\ANHDBI.dll</HintPath>
     </Reference>
+    <Reference Include="ANHMonitor">
+      <HintPath>..\..\..\anhtoolslibs\ANHMonitor\ANHMonitor\bin\Debug\ANHMonitor.dll</HintPath>
+    </Reference>
+    <Reference Include="ANHTCClient">
+      <HintPath>..\..\..\anhtoolslibs\ANHTCClient\ANHTCClient\bin\Debug\ANHTCClient.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -75,10 +81,22 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRemoteConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoteConfig.Designer.cs">
+      <DependentUpon>frmRemoteConfig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDBConfig.resx">
+      <DependentUpon>frmDBConfig.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoteConfig.resx">
+      <DependentUpon>frmRemoteConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
