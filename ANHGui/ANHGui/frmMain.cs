@@ -43,7 +43,7 @@ namespace ANHGui
         private void serversToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Cursor = Cursors.WaitCursor;
-            frmTCClient fMonitor = new frmTCClient();
+            frmMonitor fMonitor = new frmMonitor();
             fMonitor.MdiParent = this;
             fMonitor.Show();
             Cursor = Cursors.Default;
