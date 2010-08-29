@@ -30,6 +30,3 @@ C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.frmMain.resources
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.Properties.Resources.resources
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHAcctMgr.dll
-C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHDBI.dll
-C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\Utilities.dll

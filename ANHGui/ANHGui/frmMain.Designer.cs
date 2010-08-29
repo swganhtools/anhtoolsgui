@@ -53,11 +53,11 @@
             // 
             this.picLogo.BackgroundImage = global::ANHGui.Properties.Resources.grey;
             this.picLogo.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.picLogo.Image = global::ANHGui.Properties.Resources.Image8;
-            this.picLogo.Location = new System.Drawing.Point(0, 436);
+            this.picLogo.Image = global::ANHGui.Properties.Resources.banner;
+            this.picLogo.Location = new System.Drawing.Point(0, 386);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(1025, 56);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.Size = new System.Drawing.Size(1025, 106);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 1;
             this.picLogo.TabStop = false;
             // 
