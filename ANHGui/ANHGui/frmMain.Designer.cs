@@ -54,9 +54,9 @@
             this.picLogo.BackgroundImage = global::ANHGui.Properties.Resources.grey;
             this.picLogo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.picLogo.Image = global::ANHGui.Properties.Resources.banner;
-            this.picLogo.Location = new System.Drawing.Point(0, 386);
+            this.picLogo.Location = new System.Drawing.Point(0, 408);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(1025, 106);
+            this.picLogo.Size = new System.Drawing.Size(1025, 84);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 1;
             this.picLogo.TabStop = false;
@@ -64,6 +64,7 @@
             // menMain
             // 
             this.menMain.BackColor = System.Drawing.Color.Transparent;
+            this.menMain.BackgroundImage = global::ANHGui.Properties.Resources.btn;
             this.menMain.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.menMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
@@ -182,7 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SlateGray;
-            this.BackgroundImage = global::ANHGui.Properties.Resources.grey;
+            this.BackgroundImage = global::ANHGui.Properties.Resources.lightgrey;
             this.ClientSize = new System.Drawing.Size(1025, 492);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.menMain);
