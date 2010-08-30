@@ -113,20 +113,22 @@
             this.utilityServersToolStripMenuItem,
             this.zoneServersToolStripMenuItem});
             this.serversToolStripMenuItem1.Name = "serversToolStripMenuItem1";
-            this.serversToolStripMenuItem1.Size = new System.Drawing.Size(141, 20);
-            this.serversToolStripMenuItem1.Text = "Load / Unload Servers";
+            this.serversToolStripMenuItem1.Size = new System.Drawing.Size(103, 20);
+            this.serversToolStripMenuItem1.Text = "Remote Admin";
             // 
             // utilityServersToolStripMenuItem
             // 
             this.utilityServersToolStripMenuItem.Name = "utilityServersToolStripMenuItem";
-            this.utilityServersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.utilityServersToolStripMenuItem.Text = "Utility Servers";
+            this.utilityServersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.utilityServersToolStripMenuItem.Text = "Launcher";
+            this.utilityServersToolStripMenuItem.Click += new System.EventHandler(this.utilityServersToolStripMenuItem_Click);
             // 
             // zoneServersToolStripMenuItem
             // 
             this.zoneServersToolStripMenuItem.Name = "zoneServersToolStripMenuItem";
-            this.zoneServersToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.zoneServersToolStripMenuItem.Text = "Zone Servers";
+            this.zoneServersToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.zoneServersToolStripMenuItem.Text = "Admin Client";
+            this.zoneServersToolStripMenuItem.Click += new System.EventHandler(this.zoneServersToolStripMenuItem_Click);
             // 
             // sWGANHConfigurationToolStripMenuItem
             // 
@@ -182,7 +184,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SlateGray;
+            this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImage = global::ANHGui.Properties.Resources.lightgrey;
             this.ClientSize = new System.Drawing.Size(1025, 492);
             this.Controls.Add(this.picLogo);

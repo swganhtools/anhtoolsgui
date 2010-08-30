@@ -109,6 +109,14 @@
       <Project>{5C991E6E-A232-457D-9D93-3A99D72D6F02}</Project>
       <Name>ANHAcctMgr</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\anhtoolslibs\ANHMonitor\ANHMonitor\ANHMonitor.csproj">
+      <Project>{5E59B367-FC00-46CC-977C-218219DF5D0D}</Project>
+      <Name>ANHMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\anhtoolslibs\ANHTCClient\ANHTCClient\ANHTCClient.csproj">
+      <Project>{97A35212-E781-4D4D-98C1-984CBB65CD5F}</Project>
+      <Name>ANHTCClient</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btn.png" />

@@ -46,5 +46,23 @@ namespace ANHGui
         {
           
         }
+
+        private void utilityServersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cursor = Cursors.WaitCursor;
+            ANHMonitor.frmMonitor fMonitor = new ANHMonitor.frmMonitor();
+            fMonitor.MdiParent = this;
+            fMonitor.Show();
+            Cursor = Cursors.Default;
+        }
+
+        private void zoneServersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cursor = Cursors.WaitCursor;
+            ANHTCClient.frmTCClient fTCClient = new ANHTCClient.frmTCClient();
+            fTCClient.MdiParent = this;
+            fTCClient.Show();
+            Cursor = Cursors.Default;
+        }
     }
 }
