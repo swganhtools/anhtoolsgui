@@ -23,10 +23,11 @@ C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.pdb
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHGui.exe
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHGui.pdb
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHAcctMgr.pdb
-C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHDBI.pdb
-C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\Utilities.pdb
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.frmMain.resources
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.Properties.Resources.resources
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHAcctMgr.dll
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMySQLLib.dll
+C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMySQLLib.pdb

@@ -11,6 +11,7 @@ using Utilities;
 using MySql.Data.MySqlClient;
 using ANHAcctMgr;
 
+
 namespace ANHGui
 {
     public partial class frmMain : Form
@@ -18,6 +19,7 @@ namespace ANHGui
         public frmMain()
         {
             InitializeComponent();
+            
         }
 
         private void accountManagerToolStripMenuItem_Click(object sender, EventArgs e)
@@ -36,6 +38,16 @@ namespace ANHGui
             fDBConfig.MdiParent = this;
             fDBConfig.Show();
             Cursor = Cursors.Default;
+        }
+
+        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+          
         }
     }
 }

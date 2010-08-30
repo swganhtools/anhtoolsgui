@@ -34,10 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ANHAcctMgr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\anhtoolslibs\ANHAcctMgr\ANHAcctMgr\bin\Debug\ANHAcctMgr.dll</HintPath>
-    </Reference>
     <Reference Include="ANHDBI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\anhtoolslibs\ANHAcctMgr\ANHAcctMgr\bin\Debug\ANHDBI.dll</HintPath>
@@ -115,6 +111,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\anhtoolslibs\ANHAcctMgr\ANHAcctMgr\ANHAcctMgr.csproj">
+      <Project>{5C991E6E-A232-457D-9D93-3A99D72D6F02}</Project>
+      <Name>ANHAcctMgr</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
