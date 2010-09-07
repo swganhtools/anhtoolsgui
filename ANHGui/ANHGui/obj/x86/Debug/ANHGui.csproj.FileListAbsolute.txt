@@ -37,3 +37,6 @@ C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.dll
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMonitor.pdb
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHTCClient.pdb
 C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHGui.exe.config
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.exe
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.pdb
