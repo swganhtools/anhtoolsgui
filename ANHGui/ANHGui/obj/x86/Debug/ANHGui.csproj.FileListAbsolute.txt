@@ -40,3 +40,8 @@ C:\AnhDev\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.pdb
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHGui.exe.config
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.exe
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.frmMain.resources
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.Properties.Resources.resources
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.write.1.tlog
