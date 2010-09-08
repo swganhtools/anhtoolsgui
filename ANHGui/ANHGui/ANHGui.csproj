@@ -120,6 +120,10 @@
       <Project>{97A35212-E781-4D4D-98C1-984CBB65CD5F}</Project>
       <Name>ANHTCClient</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\anhtoolslibs\ServiceClient\ServiceClient\ServiceClient.csproj">
+      <Project>{CB8FA1D3-9165-4B27-BCDA-13D78532C74D}</Project>
+      <Name>ServiceClient</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btn.png" />

@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using ANHAcctMgr;
-
+using ServiceClient;
 
 namespace ANHGui
 {
@@ -59,9 +59,9 @@ namespace ANHGui
         private void zoneServersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Cursor = Cursors.WaitCursor;
-            ANHTCClient.frmTCClient fTCClient = new ANHTCClient.frmTCClient();
-            fTCClient.MdiParent = this;
-            fTCClient.Show();
+            frmClient fClient = new frmClient();
+            fClient.MdiParent = this;
+            fClient.Show();
             Cursor = Cursors.Default;
         }
     }

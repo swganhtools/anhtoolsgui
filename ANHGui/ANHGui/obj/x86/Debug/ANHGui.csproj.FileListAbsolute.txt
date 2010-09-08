@@ -57,3 +57,9 @@ C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMonitor.pdb
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHTCClient.pdb
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\MySqlLib.pdb
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMySQLLib.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMySQLLib.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ServiceClient.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANH_WCF_Interface.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ServiceClient.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANH_WCF_Interface.pdb
