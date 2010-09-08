@@ -45,3 +45,15 @@ C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.frmMain.resources
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.Properties.Resources.resources
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHGui.exe
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHGui.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHAcctMgr.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMonitor.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHTCClient.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\MySqlLib.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.dll
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHAcctMgr.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHMonitor.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHTCClient.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\MySqlLib.pdb
+C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ProcessCaller.pdb
