@@ -63,3 +63,11 @@ C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ServiceClient.dll
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANH_WCF_Interface.dll
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ServiceClient.pdb
 C:\ANH\tools\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANH_WCF_Interface.pdb
+C:\Code\anhtoolsgui\ANHGui\ANHGui\bin\Debug\ANHGui.exe.config
+C:\Code\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.exe
+C:\Code\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.pdb
+C:\Code\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Code\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.frmMain.resources
+C:\Code\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\ANHGui.Properties.Resources.resources
+C:\Code\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Code\anhtoolsgui\ANHGui\ANHGui\obj\x86\Debug\GenerateResource.write.1.tlog
